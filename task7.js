@@ -1,0 +1,13 @@
+var numberText = "numbers";
+var letterText = "letter";
+var sensitiveText = "sensitive";
+var keywordText = "keywords";
+var dollarSign = "$";
+var underscoreSign = "_";
+document.write("<h1>Rules for naming JS variables</h1>");
+document.write("<br/>Variable names can only contain, "+numberText+", "+dollarSign+", and "+underscoreSign+". For example : $my_1stVariable.");
+document.write("<br/>Variables must begin with a "+letterText+", "+dollarSign+" or "+underscoreSign+". For example : $name, _name or name.");
+document.write("<br/>Variable names are case "+sensitiveText+".");
+document.write("<br/>Variable names should not be JS "+keywordText+".");
+//document.write("<h1>Rules for naming JS variables</h1><br/>Variable names can only contain, "+numberText+", "+dollarSign+", and "+underscoreSign+". For example : $my_1stVariable.<br/>Variables must begin with a "+letterText+", "+dollarSign+" or "+underscoreSign+". For example : $name, _name or name.<br/>Variable names are case "+sensitiveText+".<br/>Variable names should not be JS "+keywordText+".");
+//document.write("<h1>Rules for naming JS variables</h1><br/>Variable names can only contain, numbers, $, and _. For example : $my_1stVariable.<br/>Variables must begin with a letter, $ or _. For example : $name, _name or name.<br/>Variable names are case sensitive.<br/>Variable names should not be JS keywords.");
